@@ -48,4 +48,4 @@ although this is a mini project based on the fact that we have limited birds dat
 * preprocessing the test data and making prediction on it.
 * visualizing the original and predictd labels for the test images.
 
-### building a streamlit App for the Bird specie prediction
+* ### building a streamlit App for the Bird specie prediction
