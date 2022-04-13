@@ -1,10 +1,14 @@
 # bird_specie_prediction
+### This is a project that constist of a web app using streamlit for prediction Birds specie.
+Although the functionality of the project is limited due to the inability to access a good data for this project but i can alway do better if 
+data are available.
 
-Birds Species Prediction
+### Approach and the model
 In this project, we will create a convolutional Neural network which will be able to predict species of birds. We will use different layers and hyperparameters for building, training, and testing this multiclass classification problem. we will be using keras and tensorflow in this project.
 
-### Motivation for project
-Birds, known to play an important role in pollination, putting a check on pesky insects and rodents, could also be causing drastic decrease in crop yields by destroying them, according to a report, which calls it as an emerging concern in Indian agriculture.
+## Aim and Objective of this project:
+Motivation for project
+Birds, known to play an important role in pollination, putting a check on pesky insects and rodents, could also be causing drastic decrease in crop yields by destroying them, according to a report, which calls it as an emerging concern in Indian agriculture(This also happens through out the world).
 
 The avian species inflict losses in agriculture by damaging crops during sowing, seedling and ripening stages, leading to economic losses to the farming community, shows the interministerial report of the Committee on Doubling Farmer’s Income (DFI) - Volume X titled "Risk Management in Agriculture", released by the Ministry of Agriculture.
 
@@ -27,7 +31,21 @@ State departments should help in the dissemination of such technologies to farme
 Birds impacting agricultural crops a major concern by DTE Staff
 link:https://www.downtoearth.org.in/news/agriculture/birds-impacting-agricultural-crops-a-major-concern-64588
 
-### importance of project
+importance of project
 This project will help to classify different bird species that could cause harm to farm produce or that could be beneficial to farm produce
 
 although this is a mini project based on the fact that we have limited birds data..
+
+### Step to solve the problem:
+* importing the image on our notebook.
+* extracting the images in jupyter notebook.
+* visualizing the image that we will be working on.
+* converting the image into a numpyarray and normalizing them
+* checking class imbalance
+* splitting the data and performing one-hot encoding.
+* creating modl architecture, compliling the model and then fitting it.
+* plotting the accuracy and loss against each epoch
+* preprocessing the test data and making prediction on it.
+* visualizing the original and predictd labels for the test images.
+
+### building a streamlit App for the Bird specie prediction
